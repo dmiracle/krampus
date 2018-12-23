@@ -1,0 +1,60 @@
+EESchema Schematic File Version 4
+LIBS:power
+LIBS:device
+LIBS:74xx
+LIBS:audio
+LIBS:interface
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L atmel:SAMD21G18A-AU U?
+U 1 1 5C20975C
+P 3750 3150
+F 0 "U?" H 3750 1314 50  0000 C CNN
+F 1 "SAMD21G18A-AU" H 3750 1223 50  0000 C CNN
+F 2 "TQFP48" H 3750 2000 50  0001 C CIN
+F 3 "" H 3750 3400 50  0001 C CNN
+	1    3750 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5C209926
+P 1550 1700
+F 0 "SW?" H 1550 1985 50  0000 C CNN
+F 1 "SW_Push" H 1550 1894 50  0000 C CNN
+F 2 "" H 1550 1900 50  0001 C CNN
+F 3 "" H 1550 1900 50  0001 C CNN
+	1    1550 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C209969
+P 1000 1750
+F 0 "#PWR?" H 1000 1500 50  0001 C CNN
+F 1 "GND" H 1005 1577 50  0000 C CNN
+F 2 "" H 1000 1750 50  0001 C CNN
+F 3 "" H 1000 1750 50  0001 C CNN
+	1    1000 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 1700 1750 1700
+Wire Wire Line
+	1350 1700 1000 1700
+Wire Wire Line
+	1000 1700 1000 1750
+$EndSCHEMATC
