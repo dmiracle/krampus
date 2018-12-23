@@ -125,4 +125,12 @@ Wire Wire Line
 Wire Wire Line
 	4000 1300 3650 1300
 Connection ~ 3650 1300
+Text GLabel 5950 2200 2    39   Input ~ 0
+LSERVO
+Text GLabel 5950 2300 2    39   Input ~ 0
+RSERVO
+Wire Wire Line
+	5600 2300 5950 2300
+Wire Wire Line
+	5600 2200 5950 2200
 $EndSCHEMATC
